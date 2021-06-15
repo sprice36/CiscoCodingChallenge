@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+img {
+	max-height: 100px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 2rem;
+}
+
+.parentDiv {
+	display: flex;	
+	flex-direction: column;
+	align-items: center;
+}
+
+.buttonRow {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.dropDownStyle {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+} 
+
+.stockDiv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
